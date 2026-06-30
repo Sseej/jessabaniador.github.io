@@ -367,3 +367,138 @@ nav a:hover{
     color:var(--secondary);
 
 }
+
+/* =========================
+   Projects
+========================= */
+
+#projects{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:120px auto;
+
+}
+
+.project-card{
+
+    background:var(--surface);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    transition:.3s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--primary);
+
+}
+
+.project-content h3{
+
+    font-size:2rem;
+
+    margin-bottom:10px;
+
+}
+
+.project-subtitle{
+
+    color:var(--primary);
+
+    margin-bottom:25px;
+
+}
+
+.project-content p{
+
+    color:var(--secondary);
+
+    margin-bottom:25px;
+
+}
+
+.tech-stack{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-bottom:30px;
+
+}
+
+.tech-stack span{
+
+    background:#0f172a;
+
+    padding:8px 16px;
+
+    border-radius:30px;
+
+    font-size:.9rem;
+
+}
+
+.project-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    padding:12px 24px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.primary{
+
+    background:var(--primary);
+
+    color:#000;
+
+}
+
+.primary:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.secondary{
+
+    border:1px solid var(--primary);
+
+    color:var(--primary);
+
+}
+
+.secondary:hover{
+
+    background:var(--primary);
+
+    color:#000;
+
+}
