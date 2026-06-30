@@ -922,3 +922,60 @@ footer p{
     transform:translateY(-5px);
 
 }
+
+
+/* =========================
+   Fade Animation
+========================= */
+
+.fade{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:all .8s ease;
+
+}
+
+.fade.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+nav a.active{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+#themeToggle{
+
+    background:none;
+
+    border:none;
+
+    color:var(--text);
+
+    font-size:20px;
+
+    cursor:pointer;
+
+}
+
+.light{
+
+    --background:#f8fafc;
+
+    --surface:#ffffff;
+
+    --text:#0f172a;
+
+    --secondary:#475569;
+
+}
