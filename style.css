@@ -738,3 +738,142 @@ footer p{
     margin:8px 0;
 
 }
+
+
+/* =========================
+   Responsive Design
+========================= */
+
+/* Tablets (1024px and below) */
+@media (max-width: 1024px){
+
+    #home h1{
+        font-size:3rem;
+    }
+
+    .about-container,
+    .contact-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* Mobile Devices (768px and below) */
+@media (max-width:768px){
+
+    nav{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    nav ul{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:15px;
+
+    }
+
+    #home{
+
+        text-align:center;
+
+        min-height:80vh;
+
+    }
+
+    #home h1{
+
+        font-size:2.5rem;
+
+    }
+
+    #home h3{
+
+        font-size:1.2rem;
+
+    }
+
+    #home p{
+
+        margin:auto;
+
+    }
+
+    .project-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .achievement-grid,
+    .skills-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* Small Phones (480px and below) */
+@media (max-width:480px){
+
+    nav{
+
+        width:95%;
+
+    }
+
+    nav h2{
+
+        font-size:1.4rem;
+
+    }
+
+    nav ul{
+
+        gap:10px;
+
+        font-size:.9rem;
+
+    }
+
+    .section-title h2{
+
+        font-size:2rem;
+
+    }
+
+    #home h1{
+
+        font-size:2rem;
+
+    }
+
+    .project-card,
+    .skill-card,
+    .achievement-card,
+    .timeline-content,
+    .contact-info,
+    .contact-actions{
+
+        padding:20px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+}
