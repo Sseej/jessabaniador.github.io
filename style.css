@@ -162,3 +162,101 @@ nav a:hover{
     font-size:1.1rem;
 
 }
+
+/* =========================
+   About
+========================= */
+
+#about{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:120px auto;
+
+}
+
+.section-title{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.section-title h2{
+
+    font-size:2.5rem;
+    margin-bottom:10px;
+
+}
+
+.section-title p{
+
+    color:var(--secondary);
+
+}
+
+.about-container{
+
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:50px;
+
+}
+
+.about-text{
+
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+
+}
+
+.about-text p{
+
+    color:var(--secondary);
+    font-size:1.05rem;
+
+}
+
+.about-info{
+
+    display:grid;
+    gap:20px;
+
+}
+
+.info-card{
+
+    background:var(--surface);
+
+    padding:20px;
+
+    border-radius:15px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.3s;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-5px);
+
+    border-color:var(--primary);
+
+}
+
+.info-card h3{
+
+    color:var(--primary);
+    margin-bottom:10px;
+
+}
+
+.info-card p{
+
+    color:var(--secondary);
+
+}
