@@ -1,7 +1,7 @@
 /* =========================
    Google Font
 ========================= */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500&display=swap'); */
 
 /* =========================
    Reset
@@ -443,7 +443,7 @@ nav a:hover{
     padding:40px;
 
     transition:.3s;
-    
+
     margin-bottom: 30px;
 
 }
@@ -927,6 +927,86 @@ footer p{
 
         text-align:center;
 
+    }
+
+}
+
+@media (max-width:768px){
+
+    /* Hero/Profile - Mobile */
+    #hero-section {
+        min-height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 5%;
+        gap: 30px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 280px;
+        height: 420px;
+        object-fit: cover;
+    }
+
+
+    /* Your existing mobile CSS */
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #home {
+        text-align: center;
+        min-height: 80vh;
+    }
+
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    #home h3 {
+        font-size: 1.2rem;
+    }
+
+    #home p {
+        margin: auto;
+    }
+
+    .project-buttons {
+        flex-direction: column;
+    }
+
+    .achievement-grid,
+    .skills-grid {
+        grid-template-columns: 1fr;
     }
 
 }
