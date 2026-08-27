@@ -9,6 +9,7 @@
 
 html{
     scroll-behavior:smooth;
+    font-family: 'Poppins';
 }
 
 
@@ -40,7 +41,7 @@ body{
 
     background:var(--background);
     color:var(--text);
-    font-family:'Inter',sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height:1.6;
 
 }
@@ -124,6 +125,51 @@ nav a:hover{
    Hero
 ========================= */
 
+#hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.hero-image img {
+    width: 480px;
+    height: 720px;
+    object-fit: cover;
+    border: 4px  solid #f8fafc;
+    border-radius: 30px;
+    background:var(--surface);
+    transition: .3s;
+
+}
+
+.hero-image img:hover {
+
+    border: 1.5px solid #38bdf8;;
+    transition: .3s;
+
+}
+
+
+
 #home{
 
     min-height:90vh;
@@ -176,7 +222,7 @@ nav a:hover{
 
     width:90%;
     max-width:1200px;
-
+    text-align:justify;  
     margin:120px auto;
 
 }
@@ -397,6 +443,8 @@ nav a:hover{
     padding:40px;
 
     transition:.3s;
+    
+    margin-bottom: 30px;
 
 }
 
@@ -977,3 +1025,4 @@ nav a.active{
     --secondary:#475569;
 
 }
+

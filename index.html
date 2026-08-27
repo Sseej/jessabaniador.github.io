@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <title>Jessa V. Baniador | Portfolio</title>
 
@@ -17,7 +20,7 @@
 
         <nav>
 
-            <h2>JB.</h2>
+            <h2>JVB.</h2>
 
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -35,17 +38,23 @@
 <!-- Main Content -->
 <main>
 
-    <!-- Hero -->
-    <section id="home">
+   <!-- Hero -->
+    <section id="hero-section">
 
-        <h1>Jessa V. Baniador</h1>
+        <div class="hero-text">
+            <h1>Jessa Verayo Baniador</h1>
 
-        <h3>BS Information Technology Graduate</h3>
+            <h3>BS Information Technology Graduate</h3>
 
-        <p>
-            An aspiring IT professional interested in Technical Support,
-            Software Quality Assurance, and Administrative roles.
-        </p>
+            <p>
+                An aspiring IT professional interested in Technical Support,
+                Software Quality Assurance, and Administrative roles.
+            </p>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/images/Picture.png" alt="Jessa V. Baniador">
+        </div>
 
     </section>
 
@@ -90,7 +99,7 @@
                     <p>BS Information Technology Graduate</p>
                 </div>
     
-                <div class="info-card">
+                <!-- <div class="info-card">
                     <h3>Location</h3>
                     <p>Bulacan, Philippines</p>
                 </div>
@@ -98,7 +107,7 @@
                 <div class="info-card">
                     <h3>Interests</h3>
                     <p>Technical Support • Software Quality Assurance • Administrative Support</p>
-                </div>
+                </div> -->
     
                 <div class="info-card">
                     <h3>Career Goal</h3>
@@ -194,33 +203,41 @@
 
         <!-- Projects -->
         <section id="projects" class="fade">
-        
+
             <div class="section-title">
-                <h2>Featured Project</h2>
-                <p>A project that demonstrates my technical and analytical skills.</p>
+                <h2>Projects & Sample Work</h2>
+                <p>
+                    A collection of my capstone project and sample projects that
+                    demonstrate my skills and areas of interest.
+                </p>
             </div>
-        
+
+
+            <!-- CAPSTONE PROJECT -->
             <div class="project-card">
-        
+
                 <div class="project-content">
-        
+
+                    <span class="project-label">Capstone Project</span>
+
                     <h3>GAD Data Analytics</h3>
-        
+
                     <p class="project-subtitle">
                         Predictive Analytics-Based System for Trend Analysis and Forecasting
                     </p>
 
                     <p class="project-subtitle">
                         Role: Project Manager | Software Quality Assurance | Research Analyst
-                    </p>        
+                    </p>
 
                     <p>
-                        A capstone project developed to analyze Gender and Development (GAD)
-                        data using predictive analytics and data visualization techniques.
-                        The system provides insights through trend analysis and forecasting
-                        to support data-driven planning and decision-making.
+                        A capstone project developed to analyze Gender and Development
+                        (GAD) data using predictive analytics and data visualization
+                        techniques. The system provides insights through trend analysis
+                        and forecasting to support data-driven planning and
+                        decision-making.
                     </p>
-        
+
                     <div class="tech-stack">
                         <span>HTML</span>
                         <span>CSS</span>
@@ -228,17 +245,130 @@
                         <span>PHP</span>
                         <span>MySQL</span>
                     </div>
-        
+
                     <div class="project-buttons">
-        
-                        <a href="https://gadinsight.com/" target="_blank" class="btn secondary">Visit</a>
-        
+                        <a href="https://gadinsight.com/"
+                        target="_blank"
+                        class="btn secondary">
+                        Visit Project
+                        </a>
                     </div>
-        
+
                 </div>
-        
+
             </div>
-        
+
+
+            <!-- SAMPLE PROJECT 1
+            <div class="project-card">
+
+                <div class="project-content">
+
+                    <span class="project-label">Sample Project</span>
+
+                    <h3>Website Content Management</h3>
+
+                    <p class="project-subtitle">
+                        Sample Website Administration and Content Management
+                    </p>
+
+                    <p>
+                        A practice project that demonstrates how I can manage and
+                        organize website content such as announcements, services,
+                        pages, images, and other information. The project focuses on
+                        keeping website content organized, updated, and easy to manage.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="btn secondary">
+                            View Sample
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            SAMPLE PROJECT 2
+            <div class="project-card">
+
+                <div class="project-content">
+
+                    <span class="project-label">Sample Project</span>
+
+                    <h3>Social Media Content Scheduler</h3>
+
+                    <p class="project-subtitle">
+                        Sample Social Media Planning Dashboard
+                    </p>
+
+                    <p>
+                        A sample project designed to demonstrate how social media
+                        content can be organized and scheduled. Users can create
+                        sample posts, choose a platform, assign a posting date, and
+                        monitor scheduled content through a simple dashboard.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="btn secondary">
+                            View Sample
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            SAMPLE PROJECT 3 -->
+            <!-- <div class="project-card">
+
+                <div class="project-content">
+
+                    <span class="project-label">Practice Project</span>
+
+                    <h3>IT Helpdesk Ticketing System</h3>
+
+                    <p class="project-subtitle">
+                        Sample Technical Support Ticket Management
+                    </p>
+
+                    <p>
+                        A beginner-friendly sample system that demonstrates the basic
+                        process of submitting, organizing, and tracking IT support
+                        concerns. Tickets can include the user's issue, category,
+                        priority, and current status.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="btn secondary">
+                            View Sample
+                        </a>
+                    </div>
+
+                </div>
+
+            </div> -->
+
         </section>
 
         <!-- Skills -->
@@ -397,14 +527,16 @@
         
                     <p>
                         💻
-                        <a href="https://github.com/jessabaniador" target="_blank">
-                            github.com/jessabaniador
+                        <a href="https://github.com/Sseej" target="_blank">
+                            github.com/Sseej
                         </a>
                     </p>
         
                     <!-- Replace with your LinkedIn later -->
                     <p>
-                        💼 LinkedIn (Coming Soon)
+                        💼 <a href="https://www.linkedin.com/in/jessa-baniador-507b89336" target="_blank">
+                            LinkedIn Profile
+                        </a>
                     </p>
         
                 </div>
